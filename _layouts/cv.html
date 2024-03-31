@@ -21,10 +21,10 @@ layout: default
 <!---->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h5>Industrial Experience</h5>
+        <h5>Analytical skills</h5>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.industrial-experience %}
+        {% for section in site.data.cv.analytical skills %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
@@ -33,10 +33,10 @@ layout: default
 <!---->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h5> Programming and softwares </h5>
+        <h5>Industrial internships</h5>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.programming %}
+        {% for section in site.data.cv.internships %}
           <p> <b>{{ section.title }}</b>: {{ section.description }}</p>
         {% endfor %}
       </div>
@@ -44,10 +44,34 @@ layout: default
 <!---->
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h5>Teaching assistanceships</h5>
+        <h5>Programming and Softwares</h5>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
+        {% for section in site.data.cv.programming %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+<!---->
+    <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h5> Certifications </h5>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.certifications %}
+          <p class="fw-bold">{{ section.title }}</p>
+          <p>{{ section.description }}</p>
+        {% endfor %}
+      </div>
+    </div>
+<!----> 
+        <div class="row g-5 mb-5">
+      <div class="col-md-2">
+        <h5>Awards</h5>
+      </div>
+      <div class="col-md-10">
+        {% for section in site.data.cv.awards %}
           <p class="fw-bold">{{ section.title }}</p>
           <p>{{ section.description }}</p>
         {% endfor %}
