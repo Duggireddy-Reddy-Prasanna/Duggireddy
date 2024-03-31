@@ -1,11 +1,14 @@
 - title : 'Programming languages'
-  description: 'C, C++, GNU Octave / MATLAB, Python, R, Julia (ordered in terms of decreasing expertise)' 
+  description: ' Python (data analysis and visulaisation, R (Biostatistics)' 
+  
+- title : 'surface chemistry softwares'
+  description: 'OCA- Series (Data Physics), DCAT ((Data Physics)'
 
-- title : 'Parallel programming'
-  description: 'CUDA (intermediate), MPI (beginner level)'
+- title : 'Soil modelling softwares'
+  description: 'Hydrus (1,2,3D), RETC'
 
 - title : 'Visualization'
-  description: 'Paraview, Matplotlib, Gnuplot, VisIt'
+  description: 'ggplot, Matplotlib, sigmaplot,excel'
 
 - title : 'Tools and Specialized software'
-  description: 'Git, Latex, ThermoCalc, Mathematica, Jekyll'
+  description: 'Git, Jekyll'
